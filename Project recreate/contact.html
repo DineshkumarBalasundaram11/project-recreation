@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Esg zoomers</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="header" >
+        <nav>
+            <div id="logo">
+                <a href="#"><span>ESG Zoomers</span><br>Sustainablity Matters</a>
+            </div>
+            <ul>
+                <li ><a  href="home.html">Home</a></li>
+                <li><a href="general.html">General</a></li>
+                <li><a   href="aboutus.html">About Us</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+            </ul>
+            <div class="homebtn"><form action="home.html"><button>Home</button></form></div>
+            <div class="menu">
+                <div class="menuline"></div>
+                <div class="menuline"></div>
+                <div class="menuline"></div>
+            </div>
+        </nav>
+    </div>
+        <div class="mnimg">
+            <div class="mnimgs">
+                <div class="mntxt">
+                    <h1>Contact</h1>
+                </div>
+            </div>
+        </div>
+        <div class="members">
+            <div class="memdtl">      
+            <div class="mlist">
+                <div class="mnme">
+                <p style="font-size: 25px;">Member One </p>
+            </div>
+                <div class="links">
+                
+                <a href="https://www.linkedin.com"><img src="img/linkedin-in.svg" alt="" style="width: 18px;"></a>
+            </div>
+            <div class="mail" style="padding: 15px 0 15px; font-size: 20px;">
+                <a href="https://www.mail.com">abc@mail.com</a>
+            </div>
+        </div>
+        <div class="mlist1">
+            <div class="mnme1">
+            <p style="font-size: 25px;">Member Two</p>
+        </div>
+            <div class="links1">
+    
+            <a href="https://www.linkedin.com"><img src="img/linkedin-in.svg" alt="" style="width: 18px;"></a>
+        </div>
+        <div class="mail1" style="padding: 15px 0 15px; font-size: 20px;">
+            <a href="https://www.mail.com">def@mail.com</a>
+        </div>
+    </div>
+    <div class="mlist2">
+        <div class="mnme2">
+        <p style="font-size: 25px;">Member Three </p>
+    </div>
+        <div class="links2">
+
+        <a  href="https://www.linkedin.com"><img src="img/linkedin-in.svg" alt="" style="width: 18px;"></a>
+    </div>
+    <div class="mail2" style="padding: 15px 0 15px; font-size: 20px;">
+        <a href="https://www.mail.com">ghi@mail.com</a>
+    </div>
+</div>
+    </div>
+        </div>
+        <div class="frm">
+            <div class="frmip">
+                        <div class="formip">
+            <form action="">
+                <div class="input">
+                    <label for="firstname">FirstName</label>
+                    <div></div>
+                    <input type="text" id="firstname">
+                </div>
+                <div class="input">
+                    <label for="lastname">LastName</label>
+                    <div></div>
+                    <input type="text" id="lastname">
+                </div>
+                <div class="mail">
+                    <label for="email">Email *</label>
+                    <div></div>
+                    <input type="email" required id="email">
+                </div>
+                <div class="message">
+                    <label for="message">Message</label>
+                    <div></div>
+                    <input type="text" id="message">
+                </div>
+                <div class="btn1">
+                    <button>Send</button>
+                </div>
+            </form>
+        </div>
+            </div>
+        </div>
+</body>
+<script>
+    const menu = document.querySelector('.menu')
+    const menulist = document. querySelector('nav ul')
+    menu.addEventListener('click',()=>{
+        menulist.classList.toggle('showmenu')
+    })
+</script>
+</html>
